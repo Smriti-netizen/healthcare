@@ -1,0 +1,353 @@
+@charset "utf-8";
+/*CSS DOC*/
+body{
+    background-color:beige;
+}
+nav img{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 12px whitesmoke;
+    padding: 0px 5%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    margin: 10px;
+}
+nav button{
+    display: flex;
+}
+nav ul a{
+    margin: 0px 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    border: 2px solid whitesmoke;
+    padding: 15px 10px ;
+}
+.last{
+    margin-right: 150px;
+}
+nav ul button{
+    margin: 0px 10px;
+    background-color: red;
+    color:whitesmoke;
+    width:120px;
+    height:50px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size:20px;
+    outline:none;
+    border:none;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+nav ul button:hover{
+    transform: scale(1.2);
+    background-color: maroon;
+}
+nav ul a:hover{
+    background-color:white;
+    border: 2px solid  black;
+    transform: scale(1.1);
+}
+nav img:hover{
+    transform: scale(1.2);
+}
+#bg{
+    background: url(images/bg1.png);
+}
+img{
+    width: 100%;
+    height: 95vh;
+    opacity: 0.8;
+}
+.intro{
+    width:100%;
+    height: 500px;
+    background-image:url("https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-9/205480487_205511441455036_4609542969293411484_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=7P1Bo0Cw2LoAX-LAcqd&_nc_ht=scontent.fdel3-2.fna&oh=768eb941fc1fc2ace6159e15fdd4cb89&oe=60DCF484");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity:0.8;
+    margin:4px 0px;
+    padding:2px 1px;
+    align-items: center;
+}
+.intro p:nth-child(1){
+    font-family: georgia;
+    font-size: 30px;
+    color: black;
+    font-weight:bolder;
+    padding-top:15%;
+    text-align: center;
+}
+.intro p:nth-child(2){
+    font-family: georgia;
+    font-size: 30px;
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+}
+.intro input{
+    align-items: center;
+    font-size: 35px;
+    width: 85%;
+    height: 50px;
+    background-color: black;
+    opacity:0.7;
+    border: 2px solid black;
+    font-weight: bold;
+    font-family: calibri;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 120px;
+}
+.brief{
+    display: flex;
+}
+
+.brief p:nth-child(1){
+    margin-left: 50px;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:maroon;
+    font-weight: bold;
+
+}
+.brief p:nth-child(2){
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-left: 70px;
+    line-height: 60px;
+}
+.services h1{
+    text-align: center;
+    color: maroon;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.services p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 40px;
+}
+.services{
+    position: relative;
+}
+.boxes1,.boxes2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.boxes1{
+    margin-bottom: 10px;
+}
+.box1,.box2,.box3{
+    width:320px;
+    height:320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box1{
+    background-image: url("https://d3frl090092vlr.cloudfront.net/Covid-Consult-1.jpg");
+}
+.box2{
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/s3.fortishealthcare.com/covid-19-healing-touch.jpg");
+}
+.box3{
+    background-image: url("https://scontent.fdel3-1.fna.fbcdn.net/v/t1.6435-9/206846305_205611078111739_8060895210586974014_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=kmRAUKWX5S8AX_jGKxr&_nc_ht=scontent.fdel3-1.fna&oh=90f4602d07322d02fcead450af969dd8&oe=60DC3A0B");
+}
+.box4,.box5,.box6{
+    width:320px;
+    height:320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.box4{
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/s3.fortishealthcare.com/what_is_coronavirus.png");
+}
+.box5{
+    background-image: url("https://scontent.fdel3-1.fna.fbcdn.net/v/t1.6435-9/204986553_205614188111428_6477329324752588449_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=txsqS2M-IUQAX8gfDy9&_nc_ht=scontent.fdel3-1.fna&oh=0a2c7b160f6ea853f2cd3ba11e924b9b&oe=60DCF394");
+}
+.box6{
+    background-image: url("https://scontent.fdel3-1.fna.fbcdn.net/v/t1.6435-9/207443181_205606664778847_3676255045279829424_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_ohc=Jt499vIFaaMAX8fu9uf&_nc_ht=scontent.fdel3-1.fna&oh=0d54bb9290990935e0f34879a774deef&oe=60DDBDF7");
+}
+.boxes1 button, .boxes2 button{
+    font-size: 20px;
+    margin: 0px 10px;
+    background-color: rgb(2, 2, 44);
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgb(2, 2, 44)
+}
+.boxes1 button:hover,.boxes2 button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color:rgb(2, 2, 44);
+    border:2px solid  black;
+}
+.reviews1{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.reviews1 img{
+    height:200px;
+    width:200px;
+    margin: 10px;
+}
+.rv h1{
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:maroon;
+}
+.reviews1 p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    line-height: 50px;
+}
+.reviews2{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.reviews2 p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    line-height: 50px
+}
+.reviews2 img{
+    height:200px;
+    width:200px;
+    margin: 10px;
+}
+.end{
+    background-color: whitesmoke;
+}
+.end button{
+    align-items: center;
+    text-align: center;
+    background-color:rgb(2, 2, 44) ;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 2px solid rgb(2, 2, 44)
+}
+.end button:hover{
+    background-color: white;
+    color: rgb(2, 2, 44);
+    border: 2px solid black;
+    transform: scale(1.1);
+}
+footer{
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.heading1 {
+    font-size:50px;
+    position: relative;
+    font-weight: bolder;
+    color:maroon;
+    text-decoration: underline;
+    position: relative;
+    text-align:center ;
+}
+footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color:black;
+    width:600px;
+    text-align: center;
+}
+.social-icons a{
+    width:90px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 2, 44);
+    margin:20px 20px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+}
+.copyright{
+    color: black;
+    font-size:15px;
+}
+.social-icons i{
+    color:white;
+
+}
+.social-icons a:hover{
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+    color:rgb(2, 2, 44);
+    transition: all ease 0.5s;
+}
